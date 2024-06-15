@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20.0)
 
 #find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
-project(bazel2zephyr)
+project(bazelcmake)
 
 if(NOT CMAKE_CXX_STANDARD)
     set(CMAKE_CXX_STANDARD 14)
